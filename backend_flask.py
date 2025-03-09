@@ -6,7 +6,7 @@ app = Flask(__name__)
 CORS(app)  # Autorise les requêtes depuis ton site web
 
 # Remplace par ta clé API OpenAI
-openai.api_key = "YOUR_OPENAI_API_KEY"
+openai.api_key = "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"
 
 @app.route("/chat", methods=["POST"])
 def chat():
